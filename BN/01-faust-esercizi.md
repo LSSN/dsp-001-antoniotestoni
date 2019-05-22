@@ -12,13 +12,13 @@ process = _+_,_*_,_-_,_/_;
 ```
 import("stdfaust.lib");
 process =_+_:_-(0.5):_*(2):_/(2);
-``
+```
 
 ##### 3. Scrivi un programma che esegua due operazioni in sequenza e producano un segnale in uscita identico a quello in entrata
 
 ```
 import("stdfaust.lib");
-process =_*(1):_*(1);
+process = *(1): *(1);
 ```
 
 ##### 4. Scrivi un programma che abbia 4 segnali un entrata, ne dimezzi l'ampiezza e li porti in uscita su quattro canali separati

@@ -15,7 +15,7 @@ process =_+_,_+_,_+_,_+_:_,_,_,_;
 
 ```
 import("stdfaust.lib");
-process =
+process =_*(1):*(5):*(2);
 ```
 
 ##### 3. Descrivi il seguente diagramma a blocchi e scrivine il relativo codice di programma
